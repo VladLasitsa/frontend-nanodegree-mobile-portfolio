@@ -7,8 +7,4 @@ function logCRP() {
 }
 window.addEventListener("load", function(event) {
   logCRP();
-  var link = document.createElement('link');
-  link.href = "css/style.css";
-  link.rel = 'stylesheet';
-  document.getElementsByTagName('head')[0].appendChild(link);
 });
